@@ -1,0 +1,18 @@
+# for Router-Smart
+# Makefile.PL
+Module::Install
+Module::Install::AuthorTests
+Module::Install::Repository
+Scalar::Util
+
+# author's tests
+Test::Pod
+Test::Pod::Coverage
+Test::Spelling
+Test::Perl::Critic
+Test::Synopsis
+
+# Release tools
+ShipIt
+ShipIt::Step::ChangeAllVersions
+CPAN::Uploader
